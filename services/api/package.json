@@ -1,0 +1,23 @@
+{
+  "name": "filex-api",
+  "version": "1.2.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js",
+    "test": "node -e \"console.log('no tests yet')\""
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.645.0",
+    "@aws-sdk/s3-request-presigner": "^3.645.0",
+    "apollo-server-express": "^3.13.0",
+    "bullmq": "^5.7.15",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "graphql": "^16.9.0",
+    "ioredis": "^5.4.1",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^9.0.1"
+  }
+}
